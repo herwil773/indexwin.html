@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa;
+    color: #00695c;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #004d40;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center; /* Menempatkan item di tengah */
+    flex-wrap: wrap; /* Membungkus item jika perlu */
+}
+
+.gallery-item {
+    text-align: center;
+    margin: 15px;
+    flex: 0 1 300px; /* Mengatur lebar item */
+}
+
+img {
+    max-width: 100%; /* Mengatur lebar maksimum gambar */
+    max-height: 200px; /* Mengatur tinggi maksimum gambar */
+    height: auto; /* Memastikan aspek rasio tetap terjaga */
+    border-radius: 8px; /* Sudut melengkung untuk estetika */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #004d40;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
