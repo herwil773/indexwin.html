@@ -1,16 +1,14 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #e0f7fa;
-    color: #00695c;
+    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 20px;
+    padding: 0;
 }
 
 header {
-    text-align: center;
-    padding: 20px;
-    background-color: #004d40;
+    background-color: #4CAF50;
     color: white;
+    padding: 10px 0;
+    text-align: center;
 }
 
 nav ul {
@@ -23,40 +21,35 @@ nav ul li {
     margin: 0 15px;
 }
 
-nav a {
+nav ul li a {
     color: white;
     text-decoration: none;
 }
 
 main {
-    text-align: center;
-    margin-top: 20px;
+    padding: 20px;
 }
 
-.gallery {
-    display: flex;
-    justify-content: center; /* Menempatkan item di tengah */
-    flex-wrap: wrap; /* Membungkus item jika perlu */
+.gallery-table {
+    width: 100%;
+    border-collapse: collapse;
 }
 
 .gallery-item {
+    border: 1px solid #ccc;
+    padding: 10px;
     text-align: center;
-    margin: 15px;
-    flex: 0 1 300px; /* Mengatur lebar item */
 }
 
-img {
-    max-width: 100%; /* Mengatur lebar maksimum gambar */
-    max-height: 200px; /* Mengatur tinggi maksimum gambar */
-    height: auto; /* Memastikan aspek rasio tetap terjaga */
-    border-radius: 8px; /* Sudut melengkung untuk estetika */
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
 }
 
 footer {
     text-align: center;
-    padding: 10px;
-    background-color: #004d40;
-    color: white;
+    padding: 10px 0;
+    background-color: #f1f1f1;
     position: relative;
     bottom: 0;
     width: 100%;
